@@ -1,5 +1,4 @@
-import { prisma } from "~/server/db";
-import { createTRPCRouter, protectedProcedure } from "../trpc";
+import { prisma } from "../../db";
 import { z } from "zod";
 
 export const chatRouter = createTRPCRouter({
